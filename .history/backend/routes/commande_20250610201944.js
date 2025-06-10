@@ -23,4 +23,5 @@ router.put("/annuler", commandeController.annulerDerniereCommande);
 // GET - Récupérer une commande complète par ID
 router.get("/:id", commandeController.getCommandeAvecDetailsParId);
 
+
 module.exports = router;
